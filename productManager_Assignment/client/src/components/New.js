@@ -25,7 +25,7 @@ const New = (props) => {
 
     return (
         <div>
-            <h1>New Product Manager</h1>
+            <h1>Product Manager</h1>
             <form onSubmit={submitHandler}>
                 <div>
                     <label>Title: </label>    
