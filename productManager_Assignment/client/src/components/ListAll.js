@@ -24,9 +24,9 @@ const ListAll = (props) => {
             <div>
                 {
                     allProducts.map((product, index) => (
-                        <button onClick={ () =>navigate("/product/:id")}>
-                        <h3>{product.title}</h3>
-                        </button>
+                    <h1>    
+                        <Link to={`/product/${product._id}`} > {product.title} </Link>
+                    </h1>
                     ))
                 }
             </div>
